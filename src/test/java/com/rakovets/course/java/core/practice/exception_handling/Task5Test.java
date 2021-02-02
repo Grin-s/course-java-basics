@@ -1,7 +1,5 @@
 package com.rakovets.course.java.core.practice.exception_handling;
 
-import com.rakovets.course.java.core.practice.exception_handling.CustomRunTimeException;
-import com.rakovets.course.java.core.practice.exception_handling.Task5;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -21,7 +19,7 @@ public class Task5Test {
 
         try {
             Task5.arithmetic2(x);
-        } catch (CustomRunTimeException actual) {
+        } catch (CustomRuntimeException actual) {
             actualMessage = actual.getMessage();
         }
 

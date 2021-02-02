@@ -6,7 +6,7 @@ public class Task1 {
 
         try {
            int x = string.length();
-        } catch (Exception nullEx) {
+        } catch (NullPointerException nullEx) {
             System.out.println("String value is " + nullEx.getMessage());
         }
     }
