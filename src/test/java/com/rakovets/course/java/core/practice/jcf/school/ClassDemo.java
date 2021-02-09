@@ -3,7 +3,7 @@ package com.rakovets.course.java.core.practice.jcf.school;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ClassTest {
+public class ClassDemo {
     public static void main(String[] args) {
         List<Student> studentList = new ArrayList<>();
 

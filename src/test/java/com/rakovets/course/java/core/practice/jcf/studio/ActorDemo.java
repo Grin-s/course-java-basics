@@ -3,7 +3,7 @@ package com.rakovets.course.java.core.practice.jcf.studio;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ActorTest {
+public class ActorDemo {
     public static void main(String[] args) {
         List<Actor> actors = new ArrayList<>();
 
