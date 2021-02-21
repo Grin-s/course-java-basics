@@ -25,7 +25,7 @@ public abstract class CityHelper {
 
     public static int getCityCount(List<String> citiesList, String city) {
         return (int) citiesList.stream()
-                .filter(s -> s.equals(city))
+                .filter(city::equals)
                 .count();
     }
 }
